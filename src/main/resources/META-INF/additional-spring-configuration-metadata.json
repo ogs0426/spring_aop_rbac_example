@@ -1,0 +1,57 @@
+{
+  "properties": [
+    {
+      "name": "app.databases.url",
+      "type": "java.lang.String",
+      "sourceType": "com.eclat.spotv.identityservice.config.db.DatasourceConfig",
+      "description": "Description for app.database.url."
+    },
+    {
+      "name": "app.databases.ro-url",
+      "type": "java.lang.String",
+      "sourceType": "com.eclat.spotv.identityservice.config.db.DatasourceConfig",
+      "description": "Description for app.database.url."
+    },
+    {
+      "name": "app.host",
+      "type": "java.lang.String",
+      "description": "Description for app.host."
+    },
+    {
+      "name": "app.databases.pool.init",
+      "type": "java.lang.String",
+      "sourceType": "com.eclat.spotv.identityservice.config.db.DatasourceConfig",
+      "description": "Description for app.databases.pool.init."
+    },
+    {
+      "name": "app.databases.pool.max",
+      "type": "java.lang.String",
+      "sourceType": "com.eclat.spotv.identityservice.config.db.DatasourceConfig",
+      "description": "Description for app.databases.pool.max."
+    },
+    {
+      "name": "app.user-enc.key",
+      "type": "java.lang.String",
+      "sourceType": "com.eclat.spotv.identityservice.config.db.DatasourceConfig",
+      "description": "Description for app.user-enc.key."
+    },
+    {
+      "name": "app.user-enc.iv",
+      "type": "java.lang.String",
+      "sourceType": "com.eclat.spotv.identityservice.config.db.DatasourceConfig",
+      "description": "Description for app.user-enc.key."
+    },
+    {
+      "name": "app.mcash.key",
+      "type": "java.lang.String",
+      "sourceType": "com.eclat.spotv.identityservice.service.McashService",
+      "description": "Description for app.mcash.key."
+    },
+    {
+      "name": "app.mcash.svcid",
+      "type": "java.lang.String",
+      "sourceType": "com.eclat.spotv.identityservice.service.McashService",
+      "description": "Description for app.mcash.svcid."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+
+server:
+  port : 7070
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: dbadmin
+    password: 1234
+    url: jdbc:mysql://localhost/sec?useSSL=false&characterEncoding=UTF-8&serverTimezone=UTC
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    # database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    database: mysql
+    properties:
+      hibernate:
+        show_sql:true: logging
+        format_sql:true: true
+        use_sql_comments: true
+
+logging:
+  level:
+    org:
+      hibernate : info
